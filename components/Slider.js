@@ -31,42 +31,56 @@ const Slider = () => {
         <div className={styles.container}>
           <Image src={slideItem} className={styles.image} alt="Notebook" />
           <div className={styles.content}>
-            <p></p>
+            <p>We Go Beneath the Hood</p>
           </div>
         </div>
 
         <div className={styles.container}>
           <Image src={slideItem} className={styles.image} alt="Notebook" />
           <div className={styles.content}>
-            <p></p>
+            <p>We Simplify to Move Fast</p>
           </div>
         </div>
 
         <div className={styles.container}>
           <Image src={slideItem} className={styles.image} alt="Notebook" />
           <div className={styles.content}>
-            <p></p>
+            <p>We are Unconstrained by Rigid Frameworks</p>
           </div>
         </div>
 
         <div className={styles.container}>
           <Image src={slideItem} className={styles.image} alt="Notebook" />
           <div className={styles.content}>
-            <p></p>
+            <p>We’re with You from Ideation to Implementation</p>
           </div>
         </div>
 
         <div className={styles.container}>
           <Image src={slideItem} className={styles.image} alt="Notebook" />
           <div className={styles.content}>
-            <p></p>
+            <p>We Design for Real Life</p>
           </div>
         </div>
 
         <div className={styles.container}>
           <Image src={slideItem} className={styles.image} alt="Notebook" />
           <div className={styles.content}>
-            <p></p>
+            <p>We Go Beneath the Hood</p>
+          </div>
+        </div>
+
+        <div className={styles.container}>
+          <Image src={slideItem} className={styles.image} alt="Notebook" />
+          <div className={styles.content}>
+            <p>We Simplify to Move Fast</p>
+          </div>
+        </div>
+
+        <div className={styles.container}>
+          <Image src={slideItem} className={styles.image} alt="Notebook" />
+          <div className={styles.content}>
+            <p>We are Unconstrained by Rigid Frameworks</p>
           </div>
         </div>
       </div>
