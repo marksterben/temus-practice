@@ -16,6 +16,7 @@ const Carousel = () => {
   return (
     <>
       <div className={styles.title}>
+        <p>WHY WE EXIST</p>
         <h1 className={styles.orangeText}>DIGITAL TRANSFORMATION</h1>
         <h1>
           IS THE KEY THAT WILL <br /> UNLOCK A BETTER FUTURE
