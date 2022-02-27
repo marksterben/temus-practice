@@ -1,0 +1,55 @@
+.wrapper {
+  padding: 50px;
+
+  .title {
+    color: white;
+    margin: 0;
+
+    .orangeText {
+      color: orange;
+    }
+  }
+
+  .container {
+    position: relative;
+    width: 80%;
+    margin-top: 50px;
+
+    @media only screen and (min-width: 768px) {width: 50%;}
+    @media only screen and (min-width: 992px) {width: 30%;}
+
+    .image {
+      vertical-align: middle;
+    }
+
+    .content {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+
+      .contentHeader {
+        font-size: 24px;
+      }
+
+      .contentBody {
+        display: none;
+      }
+    }
+
+    &:hover {
+      .content {
+        top: 0;
+        height: 100%;
+        padding: 20px;
+
+        .contentBody {
+          display: block;
+        }
+      }
+    }
+  }
+}
